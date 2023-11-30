@@ -136,3 +136,6 @@ __azurite_db*__.json
 
 # development
 back.txt
+.vscode
+.funcignore
+.DS_Store

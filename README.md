@@ -18,7 +18,7 @@ Usage
 -
 To use the function locally you need to:  
 * Create Function App
-* Create a queue in the Service Bus
+* Create a queue in Service Bus
 * Set up data export to queue for the device in IoT Central Application
 * Create a database using Azure database services
 * **IMPORTANT!** Create a new database and table based on your device data export

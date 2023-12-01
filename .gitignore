@@ -134,6 +134,10 @@ __queuestorage__
 __azurite_db*__.json
 .python_packages
 
-# development
+# Development
 back.txt
-.*
+.vscode
+.funcignore
+
+# Other
+.DS_Store

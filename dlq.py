@@ -12,4 +12,5 @@ with client:
     with dlq_receiver as receiver:
         messages = receiver.receive_messages(max_message_count=10, max_wait_time=5)
         for msg in messages:
+            print(str(msg))
             receiver.complete_message(msg)  # removing from dlq
